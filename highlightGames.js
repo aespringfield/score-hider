@@ -34,4 +34,4 @@ document.querySelectorAll('.imspo_mt__t-sc, svg.imspo_mt__triangle').forEach((no
     node.style.display = 'none';
 })
 
-highlightGamesRankedAtLeast(document, 25, 'salmon');
+highlightGamesRankedAtLeast(document, 25, '#FAF394');
