@@ -30,8 +30,4 @@ function highlightGamesRankedAtLeast(page, rank, color) {
     });
 }
 
-document.querySelectorAll('.imspo_mt__t-sc, svg.imspo_mt__triangle').forEach((node) => {
-    node.style.display = 'none';
-})
-
 highlightGamesRankedAtLeast(document, 25, '#FAF394');
